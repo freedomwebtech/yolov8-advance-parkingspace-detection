@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import pickle
+
 
 cap = cv2.VideoCapture()
 
@@ -11,7 +11,7 @@ while True:
         continue
     frame=cv2.resize(frame,(1020,500))
 
-    cv2.imshow('Draw Polylines', frame)
+    cv2.imshow('FRAME', frame)
 
     key = cv2.waitKey(1) & 0xFF
 
