@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import pickle
 
-cap = cv2.VideoCapture('easy.mp4')
+cap = cv2.VideoCapture()
 
 while True:
     ret, frame = cap.read()
