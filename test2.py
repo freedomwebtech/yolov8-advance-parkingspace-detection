@@ -14,7 +14,7 @@ class_list = data.split("\n")
 model=YOLO('yolov8s.pt')
 
 
-cap=cv2.VideoCapture('easy.mp4')
+cap=cv2.VideoCapture()
 
 
 
