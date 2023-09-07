@@ -13,6 +13,6 @@ while True:
 
     cv2.imshow('FRAME', frame)
 
-    key = cv2.waitKey(1) & 0xFF
+    Key = cv2.waitKey(1) & 0xFF
 cap.release()
 cv2.destroyAllWindows()
