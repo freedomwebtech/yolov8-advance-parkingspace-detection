@@ -31,7 +31,7 @@ while True:
     if count % 3 != 0:
        continue
 
-    frame=cv2.resize(frame,(1520,800))
+    frame=cv2.resize(frame,(1020,500))
     frame_copy = frame.copy()
     results=model.predict(frame)
  #   print(results)
